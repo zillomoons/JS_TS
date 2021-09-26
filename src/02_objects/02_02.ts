@@ -6,12 +6,13 @@ type AddressType = {
     buildNumber: number
 }
 export type HouseType = {
+    id: number
     constrYear: number
     repaired: boolean
     address: AddressType
 }
 
-type GovernBuildType = {
+export type GovernBuildType = {
     type: 'Hospital' | 'Fire Station'
     budget: number
     staffNumber: number
