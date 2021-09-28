@@ -7,17 +7,20 @@ beforeEach(() => {
         title: 'New York',
         houses: [
             {
+                id: 1,
                 constrYear: 2012,
                 repaired: false,
                 address: {street: {title: 'White'}, buildNumber: 100}
 
             },
             {
+                id: 2,
                 constrYear: 2008,
                 repaired: false,
                 address: {street: {title: 'Happy'}, buildNumber: 100}
             },
             {
+                id: 3,
                 constrYear: 2020,
                 repaired: false,
                 address: {street: {title: 'Happy'},buildNumber: 101}
