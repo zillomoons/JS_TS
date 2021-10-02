@@ -20,6 +20,7 @@ function App() {
         {usersList}
       </ul>
         <ManComponent name={'Andrew'} age={26} isMarried={true} car={car} food={food} />
+
     </>
   );
 }
